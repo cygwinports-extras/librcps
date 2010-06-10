@@ -1,0 +1,8 @@
+--- origsrc/librcps-0.3/src/Makefile.am	2008-04-17 13:42:05.000000000 -0500
++++ src/librcps-0.3/src/Makefile.am	2010-06-10 13:38:46.281042900 -0500
+@@ -7,4 +7,4 @@ noinst_HEADERS = initial.h ops.h slist.h
+ 	lib.h
+ include_HEADERS = librcps.h
+ 
+-librcps_la_LDFLAGS = -version-info $(LT_CURRENT):$(LT_REVISION):$(LT_AGE)
++librcps_la_LDFLAGS = -version-info $(LT_CURRENT):$(LT_REVISION):$(LT_AGE) -no-undefined

@@ -1,0 +1,6 @@
+category: Libs
+sdesc: "Resource constrained project scheduling library (sources)"
+ldesc: "LibRCPS aims to be a versatile, powerful and fast open source 
+library for resource constrained project scheduling. LibRCPS uses 
+genetic algorithms to find solutions for your problems, a quite 
+sophisticated method to deal with complex optimization problems."
