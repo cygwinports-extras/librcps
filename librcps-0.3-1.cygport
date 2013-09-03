@@ -1,8 +1,0 @@
-DESCRIPTION="Library for resource constrained project scheduling"
-HOMEPAGE="http://www.librcps.org/"
-SRC_URI="http://www.librcps.org/${P}.tar.gz"
-PATCH_URI="0.3-no-undefined.patch"
-
-PKG_NAMES="${PN} librcps0 librcps-devel"
-librcps0_CONTENTS="usr/bin/*-0.dll usr/share/doc/"
-librcps_devel_CONTENTS="usr/include/ usr/lib/"

@@ -1,0 +1,16 @@
+NAME="librcps"
+VERSION=0.3
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="Resource constrained project scheduling library"
+DESCRIPTION="LibRCPS aims to be a versatile, powerful and fast open source
+library for resource constrained project scheduling. LibRCPS uses genetic
+algorithms to find solutions for your problems, a quite sophisticated method
+to deal with complex optimization problems."
+HOMEPAGE="http://www.librcps.org/"
+SRC_URI="http://www.librcps.org/librcps-${VERSION}.tar.gz"
+PATCH_URI="0.3-no-undefined.patch"
+
+PKG_NAMES="librcps0 librcps-devel"
+librcps0_CONTENTS="usr/bin/*-0.dll usr/share/doc/"
+librcps_devel_CONTENTS="usr/include/ usr/lib/"
